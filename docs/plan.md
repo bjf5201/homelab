@@ -6,7 +6,7 @@ Build a production-inspired hybrid cloud platform that combines AWS cloud infras
 
 This project serves as a long-term learning lab and platform for cloud engineering, DevOps, networking, systems administration, and automation.
 
-## Core Principles
+## Guiding Principles
 
 ### 1. Infrastructure as Code First
 
@@ -57,3 +57,13 @@ Every major component should include:
 Whenever practical, configure the lab similarly to real production environments rather than taking shortcuts for a home lab.
 
 The goal is to learn professional engineering practices rather than simply host applications.
+
+## On-Prem Devices (Hardware)
+
+* Lenovo ThinkCentre M720 (Mini PC)
+* Raspberry Pi 5
+* Windows PC (Main Workstation)
+
+## AWS Devices/Functions
+
+TBD.
