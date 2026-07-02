@@ -2,9 +2,17 @@
 
 ## Project Goal
 
-Build a production-inspired hybrid cloud platform that combines AWS cloud infrastructure with an on-prem virtualization cluster. All infrastructure should be reproducible, version-controlled, and deployed through Infrastructure as Code (IaC).
+Build a production-inspired hybrid cloud platform that combines cloud infrastructure with an on-prem virtualization cluster. All infrastructure should be reproducible, version-controlled, and deployed through Infrastructure as Code (IaC).
 
 This project serves as a long-term learning lab and platform for cloud engineering, DevOps, networking, systems administration, and automation.
+
+## Project Milestones
+
+* [x] Install Proxmox and setup Ubuntu Template
+* [] Use Terraform + Cloud Init to clone that template into a new VM
+* [] Configure VM with Ansible
+* [] Deploy first Docker stack (Pi-Hole, or Gitea, or similar)
+* [] Refactor and add CI/CD to repo
 
 ## Guiding Principles
 
@@ -58,12 +66,20 @@ Whenever practical, configure the lab similarly to real production environments 
 
 The goal is to learn professional engineering practices rather than simply host applications.
 
+
+## Wishlist
+
+* S3 blob to store Terraform State (& other configs? Ansible?) remotely and securely
+* Backup and redundancy tools
+* SysAdmin Lab which includes the following VMs:
+  * Windows 11
+  * Rocky Linux (to practice RHEL sysadmin)
+  * Ubuntu Linux
+* Security lab which includes (multiple?) Kali Linux VM(s)
+* Cluster for networking lab (could be combo of on-prem and cloud nodes)
+
 ## On-Prem Devices (Hardware)
 
 * Lenovo ThinkCentre M720 (Mini PC)
 * Raspberry Pi 5
 * Windows PC (Main Workstation)
-
-## AWS Devices/Functions
-
-TBD.
